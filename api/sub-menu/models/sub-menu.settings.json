@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "test2s",
+  "collectionName": "sub_menus",
   "info": {
-    "name": "test2"
+    "name": "SubMenu"
   },
   "options": {
     "increments": true,
@@ -13,6 +13,10 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "menus": {
+      "via": "sub_menus",
+      "collection": "menu"
     }
   }
 }

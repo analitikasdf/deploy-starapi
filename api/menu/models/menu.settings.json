@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "menus",
   "info": {
-    "name": "test"
+    "name": "Menu",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "first": {
+    "Name": {
       "type": "string"
+    },
+    "sub_menus": {
+      "collection": "sub-menu",
+      "via": "menus",
+      "dominant": true
     }
   }
 }
