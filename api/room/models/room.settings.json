@@ -20,6 +20,10 @@
     },
     "Lux": {
       "type": "boolean"
+    },
+    "Guests": {
+      "type": "integer",
+      "required": true
     }
   }
 }
